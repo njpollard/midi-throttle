@@ -21,7 +21,7 @@ Edit the config.json file to include a list of 8 DCC addresses (see *The Config 
 
 ## Usage 
 ```
-usage: throttle.py [-h] [-m MIDIPORT] [-c CONFIG] [--hostname HOSTNAME]
+usage: python3 throttle.py [-h] [-m MIDIPORT] [-c CONFIG] [--hostname HOSTNAME]
                    [--port PORT] [-v] [-d]
 
 optional arguments:
@@ -58,10 +58,13 @@ source bin/activate
 pip3 install python-rtmidi
 ```
 
+Next, set up the config.json file for your layout (see *The Config File* below)
+
 If you have installed rt-midi in a virtual environment, next time you reboot or open a new shell you'll need to switch to it before you start the software
 ```
 cd ~/midi-throttle
 source bin/activate
+python3 throttle.py
 ```
 ## The Config File
 
