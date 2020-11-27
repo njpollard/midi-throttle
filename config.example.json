@@ -1,0 +1,31 @@
+[
+	{
+		"dcc_address": "S11",
+		"functions": {
+			"normal": { "rec": 0, "play": 1 },
+			"lshift": { "play": 2 },
+			"rshift": { "rec": 3 }
+		}
+	},
+	{
+		"dcc_address": "S12"
+	},
+	{
+		"dcc_address": "S15"
+	},
+	{
+		"dcc_address": "S16"
+	},
+	{
+		"dcc_address": "S14"
+	},
+	{
+		"dcc_address": "S22"
+	},
+	{
+		"dcc_address": "S20"
+	},
+	{
+		"dcc_address": "S21"
+	}
+]
